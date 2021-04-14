@@ -1,3 +1,15 @@
+### Forked on 210413
+
+Reason: the original package was not released to atmosphere in a while. The released version on atmosphere has an old `meteor package.js` file which forces a very old `meteor/react-meteor-data` package version. Using this "fork" we can install a current version of the very important `meteor/react-meteor-data` package.
+
+### How to install:
+- `meteor remove cultofcoders:grapher-react`
+- `git submodule add https://github.com/cult-of-coders/grapher-react.git packages/grapher-react`
+- `git submodule update --init`
+- `meteor add cultofcoders:grapher-react`
+
+---
+
 ## Grapher React Components
 
 Using the [cultofcoders:grapher](https://github.com/cult-of-coders/grapher) query component in React.
